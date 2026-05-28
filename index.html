@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FR NINE TOPUP</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">FR NINE TOPUP</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#packages">Diamonds</a>
+      <a href="#topup">Top Up</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>FREE FIRE DIAMOND TOP UP</h1>
+      <p>Fast • Secure • Instant Delivery</p>
+
+      <button onclick="scrollToTopup()">
+        TOP UP NOW
+      </button>
+    </div>
+  </section>
+
+  <!-- Packages -->
+  <section id="packages" class="packages">
+
+    <h2>Diamond Packages</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>💎 100 Diamonds</h3>
+        <p>€1.99</p>
+        <button>Select</button>
+      </div>
+
+      <div class="card">
+        <h3>💎 310 Diamonds</h3>
+        <p>€4.99</p>
+        <button>Select</button>
+      </div>
+
+      <div class="card">
+        <h3>💎 520 Diamonds</h3>
+        <p>€7.99</p>
+        <button>Select</button>
+      </div>
+
+      <div class="card">
+        <h3>💎 1060 Diamonds</h3>
+        <p>€14.99</p>
+        <button>Select</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Top Up Form -->
+  <section id="topup" class="topup">
+
+    <h2>Top Up Form</h2>
+
+    <form id="topupForm">
+
+      <input type="text" placeholder="Enter Free Fire UID" required>
+
+      <select required>
+        <option value="">Select Package</option>
+        <option>100 Diamonds</option>
+        <option>310 Diamonds</option>
+        <option>520 Diamonds</option>
+        <option>1060 Diamonds</option>
+      </select>
+
+      <input type="email" placeholder="Your Email" required>
+
+      <button type="submit">
+        Submit Order
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>© 2026 FR NINE TOPUP | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
